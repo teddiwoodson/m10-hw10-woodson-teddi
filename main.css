@@ -6,3 +6,20 @@
   opacity: 1;
   transition: opacity 1s;
 }
+body {
+  font-family: 'Big Shoulders Text', cursive;
+  background-color: PaleTurquoise;
+  background-image: url(images/background.png);
+  background-size: 100px;
+  background-position: bottom;
+  text-align: center;
+}
+.container {
+  background-color: LightCyan;
+  max-width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+h2 {
+  text-decoration: underline;
+}
