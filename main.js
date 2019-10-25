@@ -13,7 +13,7 @@ var waterTemp = document.createTextNode("67");
 waterSpan.appendChild(waterTemp);
 
 const temp = document.getElementById('good-temp');
-setTimeout( function () {
+setTimeout(() => {
   temp.classList.remove('hide');
   temp.classList.add('show');
 }, 3000);
