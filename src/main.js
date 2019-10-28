@@ -2,7 +2,7 @@
 
 const boilSpan = document.getElementById('boiling-temp');
 
-function boilFunction () {
+boilFunction = () => {
   var boilTemp = document.createTextNode("211");
   boilSpan.appendChild(boilTemp)
 };
@@ -10,7 +10,7 @@ function boilFunction () {
 boilFunction();
 
 const freezeSpan = document.getElementById('freezing-temp');
-function freezeFunction () {
+freezeFunction = () => {
   var freezeTemp = document.createTextNode("32");
   freezeSpan.appendChild(freezeTemp);
 };
@@ -18,7 +18,7 @@ function freezeFunction () {
 freezeFunction();
 
 const waterSpan = document.getElementById('water-temp');
-function waterFunction () {
+waterFunction = () => {
   var waterTemp = document.createTextNode("67");
   waterSpan.appendChild(waterTemp);
 };
